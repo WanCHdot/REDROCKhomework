@@ -1,0 +1,127 @@
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    font-size: 15px;
+    color: #222;
+    margin-right: 24px;
+}
+
+.login {
+    margin-left: 8px;
+    margin-right: 0px;
+    width: 48px;
+    height: 24px;
+    background-color: rgb(78, 100, 252);
+    text-align: center;
+    line-height: 24px;
+    border-radius: 4px;
+}
+
+.main {
+    width: 654px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 270px;
+    height: 129px;
+    display: block;
+    margin: 0 auto;
+}
+
+form {
+    width: 654px;
+    height: 44px;
+    display: flex;
+}
+
+.text {
+    width: 550px;
+    height: 44px;
+    box-sizing: border-box;
+    border: 2px solid #cccccc;
+    border-radius: 10px 0px 10px;
+    border-right: 0;
+}
+
+.button {
+    width: 108px;
+    height: 44px;
+    box-sizing: border-box;
+    border: 2px solid #cccccc;
+    border-radius: 0px 10px 10px 0px;
+    border-left: 0;
+    background-color: #4e6ef2;
+    color: white;
+}
+
+.list {
+    width: 100%;
+    height: 136px;
+    margin-top: 20px;
+}
+
+.top {
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.hot {
+    font-weight: bold;
+}
+
+.change {
+    color: #666;
+}
+
+.fact {
+    width: 100%;
+    height: 120PX;
+    column-count: 2;
+    column-gap: 80px;
+}
+
+.s {
+    display: block;
+    line-height: 30px;
+}
+
+.erweima {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.download {
+    text-align: center;
+    font-size: bold;
+}
+
+.slogan {
+    text-align: center;
+    color: #666;
+}
+
+.footer {
+    bottom: 0;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.footer>span {
+    font-size: 10px;
+    color: #666;
+    margin: 0 3px;
+    display: inline-block;
+}

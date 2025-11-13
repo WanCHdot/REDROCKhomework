@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第0次作业-Lv.1</title>
+    <style>
+        .red {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+        .yellow {
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+        }
+
+        body {
+            font: 16px 'Microsoft Yahei';
+        }
+
+        .name-pwd {
+            font-weight: 700;
+        }
+
+        .input1 {
+            width: 200px;
+            height: 20px;
+        }
+
+        .input2 {
+            width: 80px;
+            height: 30px;
+        }
+
+        table {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>我是一个二级标题</h2>
+    <p>我在这里放了个p于是有了一个段落</p>
+    <h3>我是一个三级标题</h3>
+    <p>接下来我要放出一只猫猫虫</p>
+    <img src="images/猫猫虫.jpg" alt="我是猫猫虫" title="我本人的精神状态" width="500"><br />
+    <a href="http://www.baidu.com" target="_blank">点击我可以跳到百度哦</a>
+    <div class="red">我是一个长宽都是100px的红盒子</div>
+    <div class="yellow">我是一个长宽都是200px的黄盒子</div>
+    <input type="text" class="input1" value="我是输入框"><input type="button" value="我是按钮" class="input2">
+    <h4>我是一个四级标题</h4>
+    <!-- 我爱前端！！！ -->
+    <ul>
+        <li>0基础</li>
+        <li>也可以</li>
+        <li>加入</li>
+        <li>前端</li>
+        <li>吗（哭）</li>
+    </ul>
+    <form>
+
+    </form><br />
+    <form>
+        <table border="1" cellspacing="0" celpudding="0" width="300" height="100">
+            <tr>
+                <td class="name-pwd">用户名：</td>
+                <td><input type="text" name="username" value="请输入用户名" maxlength="6"></td>
+            </tr>
+            <tr>
+                <td class="name-pwd">密码：</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="提交"><input type="submit" value="重置"></td>
+            </tr>
+        </table>
+        性别：<label for="男">男</label><input type="radio" name="sex" value="man" id="男">
+        <label for="女">女</label><input type="radio" name="sex" value="woman" id="女">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        学校：重庆邮电大学<input type="radio" name="school" value="CQUPT" checked="checked"><br />
+        where are you from:<select>
+            <option>地球</option>
+            <option>火星</option>
+            <option>水星</option>
+            <option>金星</option>
+            <option>木星</option>
+            <option>土星</option>
+            <option>天王星</option>
+            <option>海王星</option>
+            <option>M78星云</option>
+        </select><br />
+        爱好：运动<input type="checkbox" name="hobby" value="sport">
+        看书<input type="checkbox" name="hobby" value="reading">
+        打游戏<input type="checkbox" name="hobby" value="game">
+        听歌<input type="checkbox" name="hobby" value="music"><br />
+        想说的话:
+        <textarea>
+我爱学姐~~~~~
+        </textarea>
+    </form>
+
+</body>
+
+</html>
